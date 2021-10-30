@@ -1,0 +1,49 @@
+@import url("styles/themes/theme-alice.css");
+
+.logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.logo>img{
+    max-height:50px;
+}
+.menu-toggle span{
+    margin-right:10px;
+}
+/*::-webkit-scrollbar              {   width: 12px; }*/
+/*::-webkit-scrollbar-track        {  -webkit-box-shadow: inset 0 0 6px rgba(102, 0, 51, .3)!important; }*/
+/*::-webkit-scrollbar-track-piece  {  -webkit-box-shadow: inset 0 0 6px rgba(102, 0, 51, .1)!important; }*/
+/*::-webkit-scrollbar-thumb        {*/
+/*    -webkit-border-radius: 10px;*/
+/*    border-radius: 10px;*/
+/*    background: #660033 !important;*/
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2)!important;*/
+/*}*/
+/*::-webkit-scrollbar-thumb:window-inactive {*/
+/*    background: rgba(255,0,0,0.4)!important;*/
+/*}*/
+/*.colors-e.background-solid >ul>li > a{*/
+/*    color:#660033;*/
+/*    font-size:12pt;*/
+/*}*/
+
+
+
+
+/* Cor de fundo do autocomplete */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #660033 inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: #ffffff !important;
+}
+.ext-nav-toggle{
+    display:none!important;
+}
